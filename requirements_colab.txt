@@ -1,0 +1,10 @@
+# Google Colab genellikle CUDA uyumlu torch/torchvision ile gelir.
+# Torch'u yeniden kurmuyoruz; Colab'in mevcut GPU sürümünü koruyoruz.
+ultralytics>=8.3
+opencv-python-headless
+numpy
+PyYAML
+scikit-learn
+onnx
+onnxruntime
+onnxscript
